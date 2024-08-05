@@ -6,7 +6,7 @@ Autor: Ing. Hugo Nelson Paprika.
 
 ## Clonación de repositorio
 
-Para clonar el repositorio del presente projecto, desde una terminal se debe correr el comando
+Para clonar el repositorio del presente projecto, desde una terminal se debe correr el comando  
 'git clone https://github.com/IngHugoPaprika/MELIFrontendChallenge.git'
 
 ## Dependencias
@@ -20,19 +20,19 @@ Stack tecnológico utilizado:
 * Axios ^1.7.3
 * Sass ^1.77.8
 
-Para instalar las dependencias es recomendado entrar a cada carpeta de espectro e instalar las dependencias desde allí.
+Para instalar las dependencias es recomendado entrar a cada carpeta de espectro e instalar las dependencias desde allí.  
 Al correr el sistema, pueden haber dependencias que no se hayan instalado junto con las demás.
 
 ### Front-end
 
-'cd client'
-'npm install'
+    'cd client'  
+    'npm install'  
 (Ante la duda, correr también 'npm install react-router-dom', 'npm install sass' y 'npm install axios' 
 ya que pueden no instalarse por default)
 
 ### Back-end
-'cd server'
-'npm install'
+    'cd server'  
+    'npm install'  
 
 ## Scrips de ejecución
 
