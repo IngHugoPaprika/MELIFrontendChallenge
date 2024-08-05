@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PiMagnifyingGlassBold } from "react-icons/pi";
-import meliLogo from "../assets/meli-cut-logo.png"
+import meliLogo from "../../assets/meli-cut-logo.png"
+import searchIcon from "../../assets/search-icon.png"
 
 function QueryInputBox() {
     
@@ -30,7 +30,7 @@ function QueryInputBox() {
                     type="submit"
                     className="query-input-button"
                 >
-                    <PiMagnifyingGlassBold className="query-input-icon" />
+                    <img src={searchIcon} className="query-input-icon" alt="Search icon" />
                 </button>
             </form>
         </header>

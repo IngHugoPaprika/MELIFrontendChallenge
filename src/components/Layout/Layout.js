@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import QueryInputBox from './QueryInputBox';
+import QueryInputBox from '../QueryInputBox/QueryInputBox';
 
 function Layout() {
     return (

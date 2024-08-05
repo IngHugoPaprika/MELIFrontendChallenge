@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { FaChevronRight } from "react-icons/fa6";
-import meliLogo from "../assets/meli-cut-logo.png"
+import React from 'react';
+import chevronRight from "../../assets/chevron-right.png"
 
 function CategoryBreadcrumbs(props) {
 
@@ -19,9 +17,7 @@ function CategoryBreadcrumbs(props) {
 
                     {index < props.categories.length - 1 && (
 
-                        <FaChevronRight
-                            className="breadcrumbs-category-chevron"
-                        />
+                        <img src={chevronRight} className="breadcrumbs-category-chevron" alt="Chevron icon" />
 
                     )}
 
