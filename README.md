@@ -13,12 +13,12 @@ Para clonar el repositorio del presente projecto, desde una terminal se debe cor
 
 Stack tecnológico utilizado:
 
-> React ^18.3.1
-> react-router-dom ^6.26.0
-> Node
-> Express ^4.19.2
-> Axios ^1.7.3
-> Sass ^1.77.8
+* React ^18.3.1
+* react-router-dom ^6.26.0
+* Node
+* Express ^4.19.2
+* Axios ^1.7.3
+* Sass ^1.77.8
 
 Para instalar las dependencias es recomendado entrar a cada carpeta de espectro e instalar las dependencias desde allí.
 Al correr el sistema, pueden haber dependencias que no se hayan instalado junto con las demás.

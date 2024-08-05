@@ -13,7 +13,7 @@ function NoResultsPage(props) {
 
                 <h1 className="helper-page-message">
 
-                    {props.type == "not_found" ?
+                    {props.type === "not_found" ?
                         "No se han encontrado resultados para ese término."
                         :
                         "Producto no encontrado o no existente"
